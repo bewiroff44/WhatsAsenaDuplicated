@@ -183,7 +183,7 @@ Asena.addCommand({pattern: 'vef ?(.*)', fromMe: true, desc: TRvefdesc}, (async (
 
         await message.client.sendMessage(
             message.jid, 
-            fs.readFileSync("/root/WhatsAsenaDuplicated/media/ses/4_3333333333333333333272882333333333.mp3"),
+            fs.readFileSync("/root/WhatsAsenaDuplicated/media/ses/AUD-20210611-WA0011.m4a"),
             MessageType.audio, 
            { mimetype: Mimetype.mp4Audio, ptt: true}
         )
@@ -191,7 +191,7 @@ Asena.addCommand({pattern: 'vef ?(.*)', fromMe: true, desc: TRvefdesc}, (async (
     else {
         await message.client.sendMessage(
             message.jid, 
-            '```Bulunamadı! Varolan Liste:```\n\n$onun bunun / bende türküm\n$hadsiz / hadsız\n$yasam / yasam masam\n$yavas / yavas git\n$noluyo / noluyo lan\n$kardeslik / kardes\n$yalan / namik kemal\n$bursa cocugu / bursa\n$hakkimi / helal\n$allah ya / geldi/\n$/fehleleruy/ biz\n$/mehemmed deniz/allahverdi/atam balasi/deniz\n$/seni hic alakadar etmez/memati/alakadar/alakdar etmez\n$/kavdesim/ kavdesim helikopter\n$adam ya/geldi adam/ geldi\n$asena/yaktin beni asena/yaktın beni  asena/Asena\n$napım/napim',
+            '```Bulunamadı! Varolan Liste:```\n\n$onun bunun / bende türküm\n$hadsiz / hadsız\n$yasam / yasam masam\n$yavas / yavas git\n$noluyo / noluyo lan\n$kardeslik / kardes\n$yalan / namik kemal\n$bursa cocugu / bursa\n$hakkimi / helal\n$allah ya / geldi/\n$/fehleleruy/ biz\n$/mehemmed deniz/allahverdi/atam balasi/deniz\n$/seni hic alakadar etmez/memati/alakadar/alakdar etmez\n$/kavdesim/ kavdesim helikopter\n$adam ya/geldi adam/ geldi\n$asena/yaktin beni asena/yaktın beni  asena/Asena\n$napım/napim\n$neden/beyefendi ',
             MessageType.text
         )
     }
