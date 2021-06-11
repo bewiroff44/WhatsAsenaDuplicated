@@ -179,6 +179,15 @@ Asena.addCommand({pattern: 'vef ?(.*)', fromMe: true, desc: TRvefdesc}, (async (
            { mimetype: Mimetype.mp4Audio, ptt: true}
         )
     }
+    else if (match[1] === 'neden' || match[1] === 'beyefendi' || match[1] === '11838338' || match[1] === '22738382') {
+
+        await message.client.sendMessage(
+            message.jid, 
+            fs.readFileSync("/root/WhatsAsenaDuplicated/media/ses/4_3333333333333333333272882333333333.mp3"),
+            MessageType.audio, 
+           { mimetype: Mimetype.mp4Audio, ptt: true}
+        )
+    }
     else {
         await message.client.sendMessage(
             message.jid, 
