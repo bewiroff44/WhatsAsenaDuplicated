@@ -199,7 +199,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Güncellemek İçin``` *.update now* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
+                        '```Güncellemek İçin``` *.guncelle* ```Yazın.```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
